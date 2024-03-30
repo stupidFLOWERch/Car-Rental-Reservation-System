@@ -1,0 +1,259 @@
+body.welcome {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+  background-color: #333;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+    height: 150px;
+}
+
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	transition: all 0.3s ease;
+	padding: 5px 10px;
+}
+
+nav li a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.home {
+	background-image: url('welcome1.jpg');
+  transition: background-image 1s ease-in-out;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+  padding-top: 100px;
+	align-items:start;
+	justify-content: center;
+  width:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+  height: 1050px;
+}
+
+.welcome {
+	text-align: center;
+	color:#fff;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.welcome h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+    color:#fff;
+}
+
+.welcome p {
+	font-size: 24px;
+	margin-top: 0;
+    color:#fff;
+}
+
+
+/* index */
+  
+.row{
+    /* display: flex;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content: center; */
+    display: inline;
+    text-align: center;
+    padding: 0px;
+   
+}
+
+body.index, body.signup{
+    background-image: linear-gradient(135deg, lightgray 10%, #333 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+  }
+  
+  .box-form {
+    margin: 0 auto;
+    width: 76%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content:left;
+    box-shadow: 0 0 20px 6px gray;
+  }
+  .box-form div {
+    height: auto;
+  }
+  .box-form .left {
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("index2.jpg");
+    overflow: hidden;
+  }
+  .box-form .left .overlay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: lightslategray;
+    opacity: 0.9;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .box-form .left .overlay h1 {
+    font-size: 10vmax;
+    line-height: 1;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .box-form .left .overlay span p {
+    margin-top: 30px;
+    font-weight: 900;
+  }
+  .box-form .left .overlay span a {
+    background: #3b5998;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 14px 50px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+  }
+  .box-form .left .overlay span a:last-child {
+    background: #1dcaff;
+    margin-left: 30px;
+  }
+  .box-form .left input.button{
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #49c628a6;
+    background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+    transition: background 0.5s; 
+  }
+ .box-form .right input.button {
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #49c628a6;
+    background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+    width:130px;
+    text-align: center;
+    transition: background 0.5s; 
+  }
+  .box-form .right input.button:hover, .box-form .left input.button:hover{
+    background: lightgreen;
+  }
+  .box-form .right {
+    padding: 40px;
+    overflow: hidden;
+  }
+  .box-form .right h5 {
+    font-size: 6vmax;
+    line-height: 0;
+  }
+  .box-form .right label.forgotpassword {
+    font-size: 14px;
+    color: #B0B3B9;
+  }
+  .box-form .right .inputs {
+    overflow: hidden;
+  }
+  .box-form .right input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B0B3B9;
+  }
+  .box-form .right .remember-me--forget-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box-form .right .remember-me--forget-password input {
+    margin: 0;
+    margin-right: 7px;
+    width: auto;
+  }
+  .box-form .right button {
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #49c628a6;
+    background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+  }
+
+/* signup */
+.signupcontainer {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin-top: 300px;
+}
+/* cars */
+.car-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  }
+  .car-image {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 10px;
+  }
+
+  

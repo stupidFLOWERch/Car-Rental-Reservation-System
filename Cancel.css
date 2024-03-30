@@ -1,0 +1,42 @@
+/* CSS for cancel reservation section */
+.cancel-section {
+  background-color: #1b4d89;
+  color: #6db784;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.cancel-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cancel-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cancel-form input[type="text"], .cancel-form input[type="email"], .cancel-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+
+.cancel-form input[type="submit"] {
+  background-color: #6db784;
+  color: #1b4d89;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.cancel-form input[type="submit"]:hover {
+  background-color: #8fd2a9;
+}
